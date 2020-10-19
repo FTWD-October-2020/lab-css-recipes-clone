@@ -37,6 +37,11 @@ h1 {
   width: 400px;
 }
 
+.website-text:active .images {
+  filter: invert(1);
+  width: 40vw;
+}
+
 .website-text {
   width: 60%;
   max-width: 600px;
@@ -49,12 +54,12 @@ h1 {
   width:50vw;
 }
 
-
-
 #cheese-block:hover {
   width:60vw;
   filter: brightness(1.2);
 }
+
+
 
 /* header h1{
   position: absolute;
