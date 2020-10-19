@@ -7,3 +7,13 @@ html {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px
 }
+
+
+
+.icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: .4rem;
+  margin-left: .3rem;
+}
