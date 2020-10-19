@@ -29,6 +29,7 @@ h1 {
   text-align: center;
   padding: 200px;
   color: white;
+  animation: soupSpin 3 5s forwards;
 }
 
 .images {
@@ -58,6 +59,24 @@ h1 {
   width:60vw;
   filter: brightness(1.2);
 }
+
+@keyframes soupSpin {
+  0% {
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    font-size: 1.2em;
+    letter-spacing: 1.2em;
+  }
+}
+
+
+
+
+
 
 
 
